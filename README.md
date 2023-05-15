@@ -1,4 +1,4 @@
-# Simple TODO list template for different state managers.
+# Simple Task list template for different state managers
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
