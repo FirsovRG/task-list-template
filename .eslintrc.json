@@ -21,6 +21,24 @@
         "unused-imports"
     ],
     "rules": {
+        "react/jsx-indent-props": [1, "tab"],
+        "react/jsx-wrap-multilines": ["warn", {
+            "declaration": "parens-new-line",
+             "assignment": "parens-new-line",
+             "return": "parens-new-line",
+             "arrow": "parens-new-line",
+             "condition": "parens-new-line",
+             "logical": "parens-new-line",
+             "prop": "parens-new-line"
+           }
+         ],
+        "react/jsx-closing-tag-location": "warn",
+        "react/jsx-closing-bracket-location": "warn",
+        "react/jsx-max-props-per-line": "warn",
+        "react/jsx-first-prop-new-line": [1, "multiline"],
+        "react/jsx-curly-spacing": ["warn", { "when": "always" }],
+        "object-curly-spacing": ["error", "always"],
+        "react/prop-types": 0,
         "indent": [
             "error",
             "tab"
